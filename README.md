@@ -2,7 +2,7 @@
 
 Submitted by: **Liliana Cantero**
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **8** hours spent in total
 
 Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
