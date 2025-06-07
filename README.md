@@ -4,7 +4,7 @@ Submitted by: **Liliana Cantero**
 
 Estimated time spent: **8** hours spent in total
 
-Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
+Deployed Application (optional): [Globetrotter Deployed Site](https://globetrotter-final.onrender.com/gallery.html)
 
 ### Application Features
 
