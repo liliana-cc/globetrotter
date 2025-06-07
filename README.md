@@ -84,6 +84,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](https://globetrott
 ### Walkthrough Video
 
 `TODO://` 
+[Loom Walkthrough](https://www.loom.com/share/32f8d02aeccb4ee1bcd9c8d38ad1e5a9?sid=6b3bfba0-bf1a-4c14-8112-fcaafc575ffb)
 
 `<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/32f8d02aeccb4ee1bcd9c8d38ad1e5a9?sid=7130b1a3-a0c8-4d03-8557-558c5ec77be5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>`
 
