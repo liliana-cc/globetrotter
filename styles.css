@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    background-color: #ffd5ae;
+}
 h1 {
     font-family: OCR A Std, monospace;
 }
@@ -34,9 +38,17 @@ nav ul li a {
     border-radius: 6px;
     margin: 0;
     transition: transform 0.2s, background 0.2s, color 0.2s;
+    font-size: 20px;
+    font-weight: bold;
 }
 nav ul li:nth-child(1) {
     background-color: #11cb18; /* Home */
+}
+nav ul li:nth-child(2) {
+    background-color: #ffffff; /* Home */
+}
+nav ul li:nth-child(3) {
+    background-color: #ffffff; /* Home */
 }
 nav ul li:nth-child(4) {
     background-color: #ff5454; /* Photos */
@@ -47,12 +59,20 @@ nav ul li a:hover {
     color: #33333364;
 }
 #banner p {
+    border: 5px solid darkgreen;
+    background-color: #e42121;
+    color: #fbfbfb;
+    text-shadow: #333 0px 0px 4px;
     margin: 0px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: #333 0px 0px 5px;
 }
 #banner h2 {
+    border: 5px solid darkgreen;
+    background-color: #e42121;
+    color: #fbfbfb;
+    text-shadow: #333 0px 0px 4px;
     font-family: OCR A Std, monospace;
     text-align: center;
     margin: 0px;
@@ -96,13 +116,23 @@ nav ul li a:hover {
     padding: 1rem;
     border-radius: 10px;
 }
-
-.home-text, .home-image {
+.home-map iframe {
+    width: 100%;
+    min-height: 400px;
+    border: none;
+    border: 0;
+    border-radius: 10px;
+    display: block;
+}
+.home-text, .home-image, .home-map {
     width: 100%;
     max-width: 1400px;
     box-sizing: border-box;
     padding: 20px;
     margin: 0;
+}
+.home-text {
+    font-size: 24px;
 }
 .flex-box {
     display: flex;
@@ -114,10 +144,15 @@ nav ul li a:hover {
 .photo-gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
     justify-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 .photo {
-    width: 350px;
+    background-color:#fbfbfb;
+    width: 400px;
+    height: auto;;
     border-radius: 10px;
     box-shadow: #333 0px 0px 2px;
     padding: 20px;
@@ -134,9 +169,26 @@ nav ul li a:hover {
     border-radius: 10px;
     display: block;
 }
+.photo h3 {
+    border: 5px solid darkgreen;
+    background-color: #e42121;
+    color: #fbfbfb;
+    text-shadow: #333 0px 0px 4px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 28px;
+}
+.photo p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 24px;
+}
 .attractions {
-    max-width: 350px;
-    height: 475px;
+    background-color:#fbfbfb;
+    max-width: 400px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -151,15 +203,28 @@ nav ul li a:hover {
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
-    display: block;
 }
 .attractions p {
     text-align: center;
     margin-top: 0px;
+    font-size: 24px;
+}
+.attractions h3 {
+    margin-top: 20px;
+    border: 5px solid darkgreen;
+    background-color: #e42121;
+    color: #fbfbfb;
+    text-shadow: #333 0px 0px 4px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 28px;
 }
 .food {
-    max-width: 350px;
-    height: 520px;
+    background-color:#fbfbfb;
+    max-width: 400px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -180,6 +245,7 @@ nav ul li a:hover {
     position: relative;
     width: 100%;
     height: 250px;
+    padding-bottom: 20px;;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -197,19 +263,36 @@ nav ul li a:hover {
     background-color: rgba(84, 82, 82, 0.888);
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     z-index: 2;
+}
+.food h3 a {
+    text-decoration: none;
+    border: 5px solid darkgreen;
+    border-radius: 50px;
+    background-color: #e42121;
+    padding: 10px;
+    color: #fbfbfb;
+    text-shadow: #333 0px 0px 4px;
+}
+.food h3 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 28px;
+    color: #333;
 }
 .food h4 {
     text-align: center;
     margin-top: 0px;
     color: #333;
+    font-size: 20px;
 }
 .food p {
     text-align: center;
     margin-top: 0px;
+    font-size: 24px;
 }
 .photo,
 .attractions,
@@ -218,9 +301,12 @@ nav ul li a:hover {
 }
 .photo:hover,
 .attractions:hover,
-.food:hover, #banner h2:hover, #banner p:hover {
+.food:hover, #banner h2:hover, #banner p:hover, .food h3 a:hover {
     transform: translateY(-10px) scale(1.03);
     box-shadow: 0 8px 24px rgba(51,51,51,0.18);
+}
+.photo img, .attractions img {
+    margin-bottom: 10px;;
 }
 @media (max-width: 700px) {
     nav ul {
@@ -230,7 +316,7 @@ nav ul li a:hover {
     }
     nav ul li {
         width: 100%;
-        margin: 0.5em 0;
+        margin: 0;
     }
     nav ul li a {
         width: 100%;

@@ -27,7 +27,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
     - E.g. same font, image size, title size, etc. 
   - [x] Content arranged with Flexbox for consistency and responsiveness.
 
-- [ ] **Guide Page (Choose One)**
+- [x] **Guide Page (Choose One)**
   - [x] A separate page that is either a Food Guide, Accommodations Guide, or Upcoming Local Events guide.
   - [x] At least three entries thematic to your choice that provide a:
     - [x] Title
@@ -76,7 +76,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
   - [ ] *Note*: You do not have to collect and save the data submitted using the form. 
 
 - [ ] **Deployment**
-  - [ ] Deploy your website so it's accessible to the public outside of your local machine. 
+  - [x] Deploy your website so it's accessible to the public outside of your local machine. 
   - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** For ease of grading, please film yourself using your deployed URL with the URL visible in your video. 
 
 - [x] **Custom Styling**: Add a personal touch to your site's design.
@@ -101,7 +101,7 @@ I would have loved to add animations for my content boxes, however, I believe th
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+Because of the labs, I was able to complete the project using that knowledge. This came especially useful in creating the wireframe for my website as I could plan out where all of my tags would be before designing. On the other hand, designing was more difficult and creatively challenging for me, especially new concepts like the flex-box and flex grid. I was able to overcome this setback with the help of advisors and peers. Something one of my peers did that I thought was amazing was a sliding image album, I think the concept is neat and would love to learn how to incorporate that into future websites.
 
 ### Open-source libraries used
 
